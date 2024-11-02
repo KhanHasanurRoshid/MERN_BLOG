@@ -52,7 +52,7 @@ export default function Header() {
         </Button>
 
         <Link to="/signin">
-          <Button  gradientDuoTone='purpleToBlue' pill>
+          <Button  gradientDuoTone='purpleToBlue' pill outline>
             Sign In
           </Button>
         </Link>
