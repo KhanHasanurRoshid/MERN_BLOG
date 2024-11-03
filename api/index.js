@@ -21,6 +21,16 @@ app.listen(3000, () => {
 app.use('/api/user', userRoutes);
 app.use('/api/auth',authRoutes);
 
+app.use((err,req,res,next)=>{
+    const statysCode=err.statysCode || 500;
+    const messege= err.messege || 'Internal Server Error';
+    res.status(statusCode).json({
+      success:false,
+      statysCode,messege
+
+    });
+});
+
 
 
 
