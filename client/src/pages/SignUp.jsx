@@ -3,6 +3,10 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function SignUp() {
+  const handleChange=(e)=>{
+    console.log(e.target.value);
+  };
+
   return (
     <div className='min-h-screen mt-30 '>
       <div className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5'>
@@ -26,15 +30,15 @@ export default function SignUp() {
                 <form className='flex flex-col gap-4'>
                   <div>
                     <label value='Your username'/>
-                    <TextInput type='text' placeholder='Username' id='username' />
+                    <TextInput type='text' placeholder='Username' id='username' onChange={handleChange}/>
                   </div>
                   <div>
                     <label value='Your email'/>
-                    <TextInput type='text' placeholder='name@gmail.com' id='email' />
+                    <TextInput type='text' placeholder='name@gmail.com' id='email'  onChange={handleChange}/>
                   </div>
                   <div>
                     <label value='Your password'/>
-                    <TextInput type='text' placeholder='Password' id='password' />
+                    <TextInput type='text' placeholder='Password' id='password' onChange={handleChange} />
                   </div>
                   <Button gradientDuoTone='purpleToPink' type='submit'>
                     Sign Up
