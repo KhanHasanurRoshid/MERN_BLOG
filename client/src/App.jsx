@@ -6,7 +6,7 @@ import SignUp from "./pages/SignUp"
 import Dashboard from "./pages/Dashboard"
 import Projects from "./pages/Projects"
 import Header from "./component/Header"
-import Footer from './component/Footer';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
