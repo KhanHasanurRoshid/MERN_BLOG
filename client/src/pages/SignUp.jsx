@@ -10,8 +10,8 @@ export default function SignUp() {
         
         <div className="flex-1">
         <Link to="/"
-         className=" font-bold text-black text-4xl">
-             <span className="  px-2 py-1 bg-gradient-to-r from-blue-400 via-purple-400 to-orange-400 rounded-lg text-black font-sans">
+         className=" font-bold text-black text-7xl">
+             <span className="  px-2 py-1  rounded-lg text-black font-sans"  >
               Cp
              </span>
               Pedia

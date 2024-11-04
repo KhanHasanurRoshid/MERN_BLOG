@@ -42,8 +42,8 @@ export default function Header() {
             <Link to='/about'>About</Link>
           </Navbar.Link>
 
-          <Navbar.Link active={path==="/project"} as={'div'}>
-            <Link to='/project'>Project</Link>
+          <Navbar.Link active={path==="/projects"} as={'div'}>
+            <Link to='/Projects'>Projects</Link>
           </Navbar.Link>
         </Navbar.Collapse>
       <div className="flex gap-2 md:order-2">
@@ -63,3 +63,13 @@ export default function Header() {
     </Navbar>
   );
 }
+
+
+
+
+
+
+
+
+
+

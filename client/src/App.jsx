@@ -4,7 +4,7 @@ import About from "./pages/About"
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
 import Dashboard from "./pages/Dashboard"
-import Project from "./pages/Project"
+import Projects from "./pages/Projects"
 import Header from "./component/Header"
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
             <Route path="/signin" element={<SignIn />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/projects" element={<Project />} />
+            <Route path="/projects" element={<Projects />} />
 
         </Routes>
     
